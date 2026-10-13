@@ -1,0 +1,8 @@
+node_modules/
+.env
+fomo-session.json
+.node/
+browser-profile/
+data/
+session-export.b64
+*.tmp

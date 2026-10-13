@@ -1,0 +1,2 @@
+# cmd.exe needs CRLF line endings; keep the .bat files byte-for-byte as committed.
+*.bat -text

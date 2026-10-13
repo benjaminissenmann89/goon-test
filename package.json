@@ -1,0 +1,17 @@
+{
+  "name": "fomo-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Watches a fomo.family profile every minute and sends Telegram alerts on new trades or wallet funding.",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "login": "node src/login.js",
+    "save-session": "node src/login.js --save-only",
+    "chat-id": "node src/chat-id.js",
+    "start": "node src/tracker.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
